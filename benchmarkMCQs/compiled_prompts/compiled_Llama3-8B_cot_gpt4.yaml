@@ -1,0 +1,130 @@
+init:
+  lm: null
+  traces: []
+  train: []
+  demos:
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: اﻣﺗد اﻟﻘﺎﻧون اﻟدوﻟﻲ ﻟﺣﻘوق اﻷﻧﺳﺎن ﻟﯾﺷﻣل ﺗوﻓﯾر اﻟﺣﻣﺎﯾﺔ ﻟﻣﺟﻣوﻋﺔأﻛﺑر ﻣن اﻷﻓراد
+      واﻟﻣﺟﻣوﻋﺎت
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. The international law of human rights indeed extends
+      to provide protection not only for individuals but also for larger groups. This
+      includes various forms of collective rights, such as the rights of peoples,
+      minorities, and indigenous populations, ensuring their protection against discrimination,
+      genocide, and ensuring their right to self-determination among other rights.
+      Therefore, the statement in the question is correct.
+    option: A. صح
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يمكن أن تقام الدعوى المدنية التابعة ضد :
+
+      A. الفاعلين الأصليين فقط
+
+      B. الفاعلين الأصليين والمشاركين والمساهمين فقط
+
+      C. الفاعلين الأصليين والمساهمين والمشاركين وضد ورثتهم أو الأشخاص المسؤولين مدنيا
+      عهيم
+
+      D. جميع الأجوبة خاطئة
+
+
+      إجابة: '
+    rationale: produce the option. We know that in many legal systems, the scope of
+      civil liability can extend beyond just the primary actors (الفاعلين الأصليين)
+      to include those who played a part in the act (المشاركين) and those who contributed
+      to it (المساهمين). This is because the law often seeks to address all parties
+      who had a role in causing harm or loss. Furthermore, it is also common for the
+      law to allow for claims against the estates of deceased individuals (ورثتهم)
+      or against those who are civilly responsible for the actions of others, such
+      as guardians or employers, under certain conditions. Therefore, the most comprehensive
+      option that includes all these possibilities would be the correct answer.
+    option: C. الفاعلين الأصليين والمساهمين والمشاركين وضد ورثتهم أو الأشخاص المسؤولين
+      مدنيا عهيم
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ان دراﺳﺔ ﺣﻘوق اﻻﻧﺳﺎن ﺗدﺧل ﺿﻣن ﻧطﺎق اھﺗﻣﺎﻣﺎت اﻟﻌﻠوم اﻟﺳﯾﺎﺳﯾﺔ ﻓﻘط:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. We know that the study of human rights intersects
+      with various disciplines, not just political science. While political science
+      certainly covers aspects of human rights, especially in terms of laws, policies,
+      and governance structures that affect human rights, other disciplines such as
+      sociology, law, and international relations also extensively cover human rights
+      issues. Therefore, saying that the study of human rights falls exclusively within
+      the scope of political science is incorrect.
+    option: B. خطأ
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: تتقادم الدعوى المدنية التابعة:
+
+      A. بمرور 20 سنة من ارتكاب الجريمة
+
+      B. بمرور 15 سنة من ارتكاب الجريمة
+
+      C. طبقا للقواعد المعمول بها في القانون المدني
+
+      D. جميع الأجوبة خاطئة
+
+
+      إجابة: '
+    rationale: produce the option. We need to understand the context of the question,
+      which is about the statute of limitations for a civil lawsuit in Morocco. The
+      statute of limitations is a law that sets the maximum time after an event within
+      which legal proceedings may be initiated. When the question asks about the statute
+      of limitations for a civil lawsuit "الدعوى المدنية" that follows a crime, it's
+      important to note that civil lawsuits have their own rules separate from criminal
+      cases. Options A and B provide specific time frames (20 years and 15 years,
+      respectively) after the commission of a crime. However, without specific knowledge
+      of Moroccan law, these options might seem plausible but cannot be confirmed
+      without legal reference. Option C suggests that the statute of limitations for
+      a civil lawsuit follows the rules set forth in civil law, which is a more general
+      and likely correct answer because civil lawsuits typically follow the civil
+      code or civil law procedures in most jurisdictions, including Morocco. Option
+      D states that all answers are wrong, which is not a safe choice without specific
+      knowledge to contradict the other options directly. Given the general principles
+      of law and the context of the question, the most reasonable and broadly correct
+      answer would be that the statute of limitations for a civil lawsuit follows
+      the civil law rules.
+    option: C. طبقا للقواعد المعمول بها في القانون المدني
+  - question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ﻻ ﯾﻌﻧﻲ اﻟﺗﺳﻠﯾم ﺑﻣﺑدأ ﻋﺎﻟﻣﯾﺔ ﺣﻘوق اﻻﻧﺳﺎن ﻧﻔﻲ اﻟﺧﺻوﺻﯾﺔ اﻟﺣﺿﺎرﯾﺔ ﻟﺗﻠك اﻟﺣﻘوق:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    output: a.
+    outputs_option:
+    - A. ﺻﺢ
+    - B. ﺧطﺄ
+    subject: Political Science
+  signature_instructions: You are given an Arabic Multiple Choice Question, answer
+    it by choosing the correct option with the letter included.
+  signature_prefix: 'Option:'
+  extended_signature_instructions: You are given an Arabic Multiple Choice Question,
+    answer it by choosing the correct option with the letter included.
+  extended_signature_prefix: 'Option:'

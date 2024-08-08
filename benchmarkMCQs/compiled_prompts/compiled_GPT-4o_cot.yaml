@@ -1,0 +1,108 @@
+init:
+  lm: null
+  traces: []
+  train: []
+  demos:
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: اﻟﻣﺻﺎدر اﻻﺗﻔﺎﻗﯾﺔ ﯾﻣﻛن اﻋﺗﺑﺎرھﺎ اﻟﻣﺻدر اﻟﺗﺷرﯾﻌﻲ اﻟﻣﺑﺎﺷر اﻷول ﻟﺣﻘوق اﻷﻧﺳﺎن:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. We need to determine whether conventional sources
+      can be considered the primary direct legislative source for human rights. In
+      the context of political science and human rights law, conventional sources
+      (such as treaties and international agreements) are indeed considered primary
+      sources for the legislation and protection of human rights. Therefore, the correct
+      answer is that this statement is true.
+    option: A. ﺻﺢ
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ان ﺣﻘوق اﻻﻧﺳﺎن ﺗﻌﺑر ﻋن ﺻوت اﻟﺿﻣﯾر اﻹﻧﺳﺎﻧﻲ ﻓﻲ اﻟﻣﯾدان اﻻﺟﺗﻣﺎﻋﻲ واﻟﺳﯾﺎﺳﻲ:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: 'Reasoning: Let''s think step by step in order to produce the option.
+      We need to determine whether the statement "حقوق الإنسان تعبر عن صوت الضمير
+      الإنساني في الميدان الاجتماعي والسياسي" (Human rights express the voice of human
+      conscience in the social and political field) is true or false. Human rights
+      are indeed considered a reflection of the moral and ethical standards that govern
+      human interactions in both social and political contexts. Therefore, the statement
+      is accurate.'
+    option: A. ﺻﺢ
+  - question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: تمارس الدعوى العمومية:
+
+      A. ضد الفاعل الأصلي فقط
+
+      B. ضد الفاعل الأصلي والمشاركين فقط
+
+      C. ضد الفاعل الأصلي والمشاركين والمساهمين في ارتكاب الفعل الجرمي
+
+
+      إجابة: '
+    output: c.
+    outputs_option:
+    - A. ضد الفاعل الأصلي فقط
+    - B. ضد الفاعل الأصلي والمشاركين فقط
+    - C. ضد الفاعل الأصلي والمشاركين والمساهمين في ارتكاب الفعل الجرمي
+    subject: Law
+  - question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يقيم الدعوى العمومية:
+
+      A. النيابة العامة
+
+      B. الموظفون المكلفون بذلك قانونا
+
+      C. الطرف المتضرر
+
+      D. جميع الأجوبة صحيحة
+
+
+      إجابة: '
+    output: d.
+    outputs_option:
+    - A. النيابة العامة
+    - B. الموظفون المكلفون بذلك قانونا
+    - C. الطرف المتضرر
+    - D. جميع الأجوبة صحيحة
+    subject: Law
+  - question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: اﻣﺗد اﻟﻘﺎﻧون اﻟدوﻟﻲ ﻟﺣﻘوق اﻷﻧﺳﺎن ﻟﯾﺷﻣل ﺗوﻓﯾر اﻟﺣﻣﺎﯾﺔ ﻟﻣﺟﻣوﻋﺔأﻛﺑر ﻣن اﻷﻓراد
+      واﻟﻣﺟﻣوﻋﺎت
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    output: a.
+    outputs_option:
+    - A. ﺻﺢ
+    - B. ﺧطﺄ
+    subject: Political Science
+  signature_instructions: You are given an Arabic Multiple Choice Question, answer
+    it by choosing the correct option with the letter included.
+  signature_prefix: 'Option:'
+  extended_signature_instructions: You are given an Arabic Multiple Choice Question,
+    answer it by choosing the correct option with the letter included.
+  extended_signature_prefix: 'Option:'

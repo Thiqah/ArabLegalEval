@@ -1,0 +1,135 @@
+init:
+  lm: null
+  traces: []
+  train: []
+  demos:
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يقيم الدعوى العمومية:
+
+      A. النيابة العامة
+
+      B. الموظفون المكلفون بذلك قانونا
+
+      C. الطرف المتضرر
+
+      D. جميع الأجوبة صحيحة
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+      سؤال: يقيم الدعوى العمومية: A. النيابة العامة B. الموظفون المكلفون بذلك قانونا
+      C. الطرف المتضرر D. جميع الأجوبة صحيحة إجابة:
+
+      Reasoning: Let''s think step by step in order to identify who can initiate a
+      public prosecution. In Morocco, the public prosecutor''s office is responsible
+      for initiating public prosecutions, so the correct answer is A. Additionally,
+      certain officials designated by law can also initiate public prosecutions, so
+      option B is also correct. The injured party, however, cannot initiate a public
+      prosecution, so option C is incorrect. Therefore, the correct answer is D, as
+      both A and B are correct.'
+    option: D. جميع الأجوبة صحيحة
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ﻻ ﯾﻌﻧﻲ اﻟﺗﺳﻠﯾم ﺑﻣﺑدأ ﻋﺎﻟﻣﯾﺔ ﺣﻘوق اﻻﻧﺳﺎن ﻧﻔﻲ اﻟﺧﺻوﺻﯾﺔ اﻟﺣﺿﺎرﯾﺔ ﻟﺗﻠك اﻟﺣﻘوق:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال في العلوم السياسية للجامعات في مصر. اختر الإجابة
+      الصحيحة! سؤال: ﻻ ﯾﻌﻧﻲ اﻟﺗﺳﻠﯾم ﺑﻣﺑدأ ﻋﺎﻟﻣﯾﺔ ﺣﻘوق اﻻﻧﺳﺎن ﻧﻔﻲ اﻟﺧﺻوﺻﯾﺔ اﻟﺣﺿﺎرﯾﺔ
+      ﻟﺗﻠك اﻟﺣﻘوق:
+
+      Reasoning: Let''s think step by step in order to identify the correct answer.
+      We need to understand the concept of human rights and their universality. The
+      question states that a certain aspect does not negate the universality of human
+      rights. We need to find the correct option that fits this description.'
+    option: A. ﺻﺢ
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: تسقط الدعوى العمومية ب:
+
+      A. موت الشخص المتابع
+
+      B. العفو الشامل
+
+      C. نسخ المقتضيات الجنائية المجرمة للفعل
+
+      D. صدور مقرر مكتسب لقوة الثيء المقضي به
+
+      E. جميع الأجوبة صحيح
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+      سؤال: تسقط الدعوى العمومية ب: A. موت الشخص المتابع B. العفو الشامل C. نسخ المقتضيات
+      الجنائية المجرمة للفعل D. صدور مقرر مكتسب لقوة الثيء المقضي به E. جميع الأجوبة
+      صحيح إجابة:
+
+
+      Reasoning: Let''s think step by step in order to identify the correct answer.
+      A public prosecution case can be dropped due to various reasons. After analyzing
+      the options, we can conclude that a public prosecution case can be dropped due
+      to the death of the accused person (A. موت الشخص المتابع), a general amnesty
+      (B. العفو الشامل), the repeal of criminal provisions related to the act (C.
+      نسخ المقتضيات الجنائية المجرمة للفعل), or the issuance of a final judgment (D.
+      صدور مقرر مكتسب لقوة الثيء المقضي به). Therefore, all the above options are
+      correct.'
+    option: E. جميع الأجوبة صحيح
+  - question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: صدرالقانون رقم 22.01 المتعلق بالمسطرة الجنائية بتاريخ:
+
+      A. 4 أكتوير 2002
+
+      B.  6 أكتوير 2009
+
+      C. 2 أكتوير 2003
+
+      D. 3 أكتوير 2002
+
+      E. جميع الأجوية خاطئة
+
+
+      إجابة: '
+    output: d.
+    outputs_option:
+    - A. 4 أكتوير 2002
+    - B.  6 أكتوير 2009
+    - C. 2 أكتوير 2003
+    - D. 3 أكتوير 2002
+    - E. جميع الأجوية خاطئة
+    subject: Law
+  - question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: اﻣﺗد اﻟﻘﺎﻧون اﻟدوﻟﻲ ﻟﺣﻘوق اﻷﻧﺳﺎن ﻟﯾﺷﻣل ﺗوﻓﯾر اﻟﺣﻣﺎﯾﺔ ﻟﻣﺟﻣوﻋﺔأﻛﺑر ﻣن اﻷﻓراد
+      واﻟﻣﺟﻣوﻋﺎت
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    output: a.
+    outputs_option:
+    - A. ﺻﺢ
+    - B. ﺧطﺄ
+    subject: Political Science
+  signature_instructions: You are given an Arabic Multiple Choice Question, answer
+    it by choosing the correct option with the letter included.
+  signature_prefix: 'Option:'
+  extended_signature_instructions: You are given an Arabic Multiple Choice Question,
+    answer it by choosing the correct option with the letter included.
+  extended_signature_prefix: 'Option:'

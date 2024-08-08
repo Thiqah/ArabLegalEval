@@ -1,0 +1,5 @@
+Given a text from a contract and a related question, answer the question with أجل for Yes or لا for No. Don't add any more details to the answer.
+
+contract: {clause}
+Question: {question}
+ Answer:

@@ -1,0 +1,7 @@
+You are an expert legal professional who can understand legal documents and answer questions related to legal context. Given a clause and a description, classify if the description of each clause is correct or incorrect. Use the Arabic words صحيح if the description is correct and use the word غير صحيح if the description is incorrect. The Final answer should be the answer as صحيح or غير صحيح only.
+
+
+
+clause: {clause}
+description: {question} Reply either with صحيح or غير صحيح
+Answer:

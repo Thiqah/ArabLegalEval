@@ -1,0 +1,7 @@
+Classify if the clause is relevant ذات صلة to answering the question or irrelevant غير ذات صلة. The final answer should be the phrase ذات الصلة or غير ذات صلة only.
+
+
+Clause: {clause}
+Question: {question}
+
+Answer:

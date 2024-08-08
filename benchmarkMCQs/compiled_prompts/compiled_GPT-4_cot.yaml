@@ -1,0 +1,123 @@
+init:
+  lm: null
+  traces: []
+  train: []
+  demos:
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ان ﺣﻘوق اﻻﻧﺳﺎن ﺗﻌﺑر ﻋن ﺻوت اﻟﺿﻣﯾر اﻹﻧﺳﺎﻧﻲ ﻓﻲ اﻟﻣﯾدان اﻻﺟﺗﻣﺎﻋﻲ واﻟﺳﯾﺎﺳﻲ:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. We know that human rights are a set of rights that
+      are believed to belong justifiably to every person. These rights include the
+      right to live freely, to express oneself, and to be treated with equality among
+      others. They are fundamental rights which every human being is entitled to have
+      protected and respected. The statement suggests that human rights represent
+      the voice of human conscience in the social and political field, which aligns
+      with the universal concept of human rights being inherent to all human beings,
+      regardless of nationality, place of residence, sex, national or ethnic origin,
+      color, religion, language, or any other status. Therefore, the statement is
+      correct as it emphasizes the role of human rights in reflecting the moral and
+      ethical standards of humanity in social and political domains.
+    option: A. صح
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: اﻣﺗد اﻟﻘﺎﻧون اﻟدوﻟﻲ ﻟﺣﻘوق اﻷﻧﺳﺎن ﻟﯾﺷﻣل ﺗوﻓﯾر اﻟﺣﻣﺎﯾﺔ ﻟﻣﺟﻣوﻋﺔأﻛﺑر ﻣن اﻷﻓراد
+      واﻟﻣﺟﻣوﻋﺎت
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. The international law for human rights indeed extends
+      to provide protection not only for individuals but also for larger groups or
+      collectives. This includes various groups such as ethnic minorities, indigenous
+      peoples, and other vulnerable groups who are protected under various international
+      treaties and declarations. Therefore, the statement in the question is accurate
+      as international human rights law does cover the provision of protection for
+      both larger groups of individuals and collectives.
+    option: A. صح
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ﯾﻣﻛن اﻟﻘول إن ﺣﻘوق اﻹﻧﺳﺎن ھﻲ ﺿﻣﺎﻧﺎت ﻗﺎﻧوﻧﯾﺔ ﻋﺎﻟﻣﯾﺔ ﺗﺣﻣﻲ اﻷﻓراد واﻟﻣﺟﻣوﻋﺎت
+      ﻣن اﻟﺣﻛوﻣﺎت
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. Human rights are indeed global legal guarantees
+      that protect individuals and groups from actions that interfere with fundamental
+      freedoms and human dignity. These rights are designed to ensure that every person
+      is treated with respect and can participate fully in society. They are recognized
+      internationally, for example, in documents like the Universal Declaration of
+      Human Rights adopted by the United Nations. Therefore, the statement that human
+      rights are legal guarantees that protect individuals and groups from governments
+      is accurate.
+    option: A. صح
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ﯾرى أﻧﺻﺎر اﻟﻣدرﺳﺔ اﻟﻧﻔﻌﯾﺔ اﻧﮫ ﯾﻣﻛن اﻟﺗﺿﺣﯾﺔ ﺑﺣﻘوق ﻓرد ﻣﻌﯾن أو اﻓراد ﻣﻌﯾﻧﯾن
+      ﻣن أﺟل ﺗﺣﻘﯾﻖ ﻣﻧﺎﻓﻊ
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. The question is about the Utilitarian School of
+      thought, which believes in maximizing happiness or benefits for the greatest
+      number of people. According to this philosophy, it can be justified to sacrifice
+      the rights of a certain individual or individuals if it leads to the greater
+      good or benefits of the majority. Therefore, the statement aligns with the principles
+      of utilitarianism.
+    option: A. صح
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يقيم الدعوى العمومية:
+
+      A. النيابة العامة
+
+      B. الموظفون المكلفون بذلك قانونا
+
+      C. الطرف المتضرر
+
+      D. جميع الأجوبة صحيحة
+
+
+      إجابة: '
+    rationale: produce the option. We know that the public prosecution (النيابة العامة)
+      is typically responsible for initiating public actions in many legal systems,
+      including Morocco. This is because their role is to represent the state in prosecuting
+      criminal offenses, which aligns with option A. However, it's also true that
+      certain officials designated by law (option B) and the injured party (option
+      C) can initiate legal actions in specific circumstances. Therefore, considering
+      all aspects of the question, it seems that all the given options could be correct
+      in different contexts.
+    option: D. جميع الأجوبة صحيحة
+  signature_instructions: You are given an Arabic Multiple Choice Question, answer
+    it by choosing the correct option with the letter included.
+  signature_prefix: 'Option:'
+  extended_signature_instructions: You are given an Arabic Multiple Choice Question,
+    answer it by choosing the correct option with the letter included.
+  extended_signature_prefix: 'Option:'

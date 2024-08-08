@@ -1,0 +1,138 @@
+init:
+  lm: null
+  traces: []
+  train: []
+  demos:
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: صدرالقانون رقم 22.01 المتعلق بالمسطرة الجنائية بتاريخ:
+
+      A. 4 أكتوير 2002
+
+      B.  6 أكتوير 2009
+
+      C. 2 أكتوير 2003
+
+      D. 3 أكتوير 2002
+
+      E. جميع الأجوية خاطئة
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+      سؤال: صدرالقانون رقم 22.01 المتعلق بالمسطرة الجنائية بتاريخ: A. 4 أكتوير 2002
+      B. 6 أكتوير 2009 C. 2 أكتوير 2003 D. 3 أكتوير 2002 E. جميع الأجوية خاطئة إجابة:
+
+      Reasoning: Let''s think step by step in order to find the correct date of the
+      issuance of Law No. 22.01 related to the Criminal Procedure. After researching,
+      we found that Law No. 22.01 was issued on 3 October 2002.'
+    option: D. 3 أكتوير 2002
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يترتب عن كل جريمة الحق:
+
+      A. في دعوى عمومية
+
+      B. دعوى مدنية تابعة
+
+      C. جميع الأجوبة صحيحة
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+      سؤال: يترتب عن كل جريمة الحق: A. في دعوى عمومية B. دعوى مدنية تابعة C. جميع
+      الأجوبة صحيحة إجابة:
+
+      Reasoning: Let''s think step by step in order to understand the consequences
+      of a crime. In Moroccan law, every crime gives rise to two types of rights:
+      the public right, which is represented by the public prosecution, and the private
+      right, which is represented by the civil lawsuit filed by the victim. Therefore,
+      both options A and B are correct.'
+    option: C. جميع الأجوبة صحيحة
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: تمارس الدعوى العمومية:
+
+      A. ضد الفاعل الأصلي فقط
+
+      B. ضد الفاعل الأصلي والمشاركين فقط
+
+      C. ضد الفاعل الأصلي والمشاركين والمساهمين في ارتكاب الفعل الجرمي
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+      سؤال: تمارس الدعوى العمومية: A. ضد الفاعل الأصلي فقط B. ضد الفاعل الأصلي والمشاركين
+      فقط C. ضد الفاعل الأصلي والمشاركين والمساهمين في ارتكاب الفعل الجرمي إجابة:
+
+      Reasoning: Let''s think step by step in order to understand the scope of the
+      public prosecution. In Morocco, public prosecution is not limited to the original
+      perpetrator only, nor is it limited to the original perpetrator and accomplices
+      only. It includes all parties involved in the criminal act, which means it also
+      includes those who contributed to the crime.'
+    option: C. ضد الفاعل الأصلي والمشاركين والمساهمين في ارتكاب الفعل الجرمي
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يقيم الدعوى العمومية:
+
+      A. النيابة العامة
+
+      B. الموظفون المكلفون بذلك قانونا
+
+      C. الطرف المتضرر
+
+      D. جميع الأجوبة صحيحة
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+      سؤال: يقيم الدعوى العمومية: A. النيابة العامة B. الموظفون المكلفون بذلك قانونا
+      C. الطرف المتضرر D. جميع الأجوبة صحيحة إجابة:
+
+      Reasoning: Let''s think step by step in order to identify who can initiate a
+      public prosecution. In Morocco, the public prosecutor''s office is responsible
+      for initiating public prosecutions, so the correct answer is A. Additionally,
+      certain officials designated by law can also initiate public prosecutions, making
+      option B also correct. Furthermore, the injured party can also initiate a public
+      prosecution, making option C correct as well. Therefore, all the above options
+      are correct.'
+    option: D. جميع الأجوبة صحيحة
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يمارس الدعوى العمومية:
+
+      A. المتضرر
+
+      B. قضاة الأحكام
+
+      C. رئيس المحكمة أو الرئيس الأول
+
+      D. قضاة النيابة العامة
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+      سؤال: يمارس الدعوى العمومية: A. المتضرر B. قضاة الأحكام C. رئيس المحكمة أو الرئيس
+      الأول D. قضاة النيابة العامة إجابة:
+
+      Reasoning: Let''s think step by step in order to identify who is responsible
+      for exercising public prosecution. In the Moroccan legal system, public prosecution
+      is exercised by the judges of the public prosecutor''s office. Therefore, the
+      correct answer is D. قضاة النيابة العامة.'
+    option: D. قضاة النيابة العامة
+  signature_instructions: You are given an Arabic Multiple Choice Question, answer
+    it by choosing the correct option with the letter included.
+  signature_prefix: 'Option:'
+  extended_signature_instructions: You are given an Arabic Multiple Choice Question,
+    answer it by choosing the correct option with the letter included.
+  extended_signature_prefix: 'Option:'

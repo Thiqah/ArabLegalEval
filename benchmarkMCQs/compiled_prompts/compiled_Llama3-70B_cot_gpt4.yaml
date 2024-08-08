@@ -1,0 +1,113 @@
+init:
+  lm: null
+  traces: []
+  train: []
+  demos:
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: اﻟﻣﺻﺎدر اﻻﺗﻔﺎﻗﯾﺔ ﯾﻣﻛن اﻋﺗﺑﺎرھﺎ اﻟﻣﺻدر اﻟﺗﺷرﯾﻌﻲ اﻟﻣﺑﺎﺷر اﻷول ﻟﺣﻘوق اﻷﻧﺳﺎن:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. We know that international treaties and agreements
+      are considered a primary source of human rights law. These agreements, once
+      ratified by a country, become a part of that country's legal framework and are
+      directly applicable in the protection and enforcement of human rights. Therefore,
+      it is correct to consider international treaties as a direct primary source
+      of human rights.
+    option: A. صح
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ان ﺣﻘوق اﻻﻧﺳﺎن ﺗﻌﺑر ﻋن ﺻوت اﻟﺿﻣﯾر اﻹﻧﺳﺎﻧﻲ ﻓﻲ اﻟﻣﯾدان اﻻﺟﺗﻣﺎﻋﻲ واﻟﺳﯾﺎﺳﻲ:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: produce the option. Human rights are fundamental rights that every
+      person is entitled to simply because they are human. These rights are designed
+      to ensure that every individual is treated with dignity and respect, regardless
+      of their nationality, place of residence, sex, national or ethnic origin, color,
+      religion, language, or any other status. Human rights include civil and political
+      rights, such as the rights to freedom of expression, vote, and live free from
+      discrimination and violence. The statement in the question suggests that human
+      rights represent the voice of human conscience in the social and political field,
+      which aligns with the universal principles of human rights that advocate for
+      the protection and respect of individuals' dignity in both social and political
+      spheres. Therefore, the statement can be considered true as it reflects the
+      essence of what human rights aim to protect and promote in society.
+    option: A. صح
+  - question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: تمارس الدعوى العمومية:
+
+      A. ضد الفاعل الأصلي فقط
+
+      B. ضد الفاعل الأصلي والمشاركين فقط
+
+      C. ضد الفاعل الأصلي والمشاركين والمساهمين في ارتكاب الفعل الجرمي
+
+
+      إجابة: '
+    output: c.
+    outputs_option:
+    - A. ضد الفاعل الأصلي فقط
+    - B. ضد الفاعل الأصلي والمشاركين فقط
+    - C. ضد الفاعل الأصلي والمشاركين والمساهمين في ارتكاب الفعل الجرمي
+    subject: Law
+  - question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يقيم الدعوى العمومية:
+
+      A. النيابة العامة
+
+      B. الموظفون المكلفون بذلك قانونا
+
+      C. الطرف المتضرر
+
+      D. جميع الأجوبة صحيحة
+
+
+      إجابة: '
+    output: d.
+    outputs_option:
+    - A. النيابة العامة
+    - B. الموظفون المكلفون بذلك قانونا
+    - C. الطرف المتضرر
+    - D. جميع الأجوبة صحيحة
+    subject: Law
+  - question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: اﻣﺗد اﻟﻘﺎﻧون اﻟدوﻟﻲ ﻟﺣﻘوق اﻷﻧﺳﺎن ﻟﯾﺷﻣل ﺗوﻓﯾر اﻟﺣﻣﺎﯾﺔ ﻟﻣﺟﻣوﻋﺔأﻛﺑر ﻣن اﻷﻓراد
+      واﻟﻣﺟﻣوﻋﺎت
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    output: a.
+    outputs_option:
+    - A. ﺻﺢ
+    - B. ﺧطﺄ
+    subject: Political Science
+  signature_instructions: You are given an Arabic Multiple Choice Question, answer
+    it by choosing the correct option with the letter included.
+  signature_prefix: 'Option:'
+  extended_signature_instructions: You are given an Arabic Multiple Choice Question,
+    answer it by choosing the correct option with the letter included.
+  extended_signature_prefix: 'Option:'

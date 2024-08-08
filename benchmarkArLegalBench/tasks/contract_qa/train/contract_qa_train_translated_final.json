@@ -1,0 +1,74 @@
+[
+    {
+        "index":"0",
+        "question":"Does the clause discuss PII data breaches?",
+        "answer":"Yes",
+        "text":"In the event of a data breach involving the unauthorized access, use, or disclosure of personally identifiable information (PII), the Company shall notify without undue delay affected individuals and relevant regulatory authorities in accordance with applicable laws and regulations. The Company shall also take reasonable steps to mitigate the harm caused by the breach and to prevent future breaches.",
+        "Question_translation":"هل يناقش البند انتهاكات بيانات PII؟",
+        "answer_Translation":"أجل",
+        "contract_Translation":"في حالة حدوث خرق للبيانات ينطوي على الوصول غير المصرح به أو الاستخدام أو الكشف عن معلومات التعريف الشخصية (PII) ، يجب على الشركة إخطار الأفراد المتضررين والسلطات التنظيمية ذات الصلة دون تأخير لا مبرر له وفقًا للقوانين واللوائح المعمول بها. تتخذ الشركة أيضًا خطوات معقولة للتخفيف من الضرر الناجم عن الخرق ومنع الانتهاكات المستقبلية."
+    },
+    {
+        "index":"1",
+        "question":"Does the clause discuss dispute resolution?",
+        "answer":"Yes",
+        "text":"In the event of any dispute arising out of or relating to this agreement, the parties agree to submit to mediation before resorting to arbitration or litigation.",
+        "Question_translation":"هل يناقش البند حل النزاعات؟",
+        "answer_Translation":"أجل",
+        "contract_Translation":"في حالة وجود أي نزاع ينشأ عن أو يتعلق بهذه الاتفاقية ، يتفق الطرفان على الخضوع للوساطة قبل اللجوء إلى التحكيم أو التقاضي."
+    },
+    {
+        "index":"2",
+        "question":"Does the clause describe confidentiality requirements?",
+        "answer":"Yes",
+        "text":"Each party agrees to keep confidential and not to disclose to any third party any confidential information of the other party, except as required by law or as necessary to perform its obligations under this Agreement. Each party shall take reasonable steps to protect the confidentiality of the other party's confidential information and to prevent its unauthorized use or disclosure.",
+        "Question_translation":"هل يصف البند متطلبات السرية؟",
+        "answer_Translation":"أجل",
+        "contract_Translation":"يوافق كل طرف على الحفاظ على السرية وعدم الكشف لأي طرف ثالث عن أي معلومات سرية للطرف الآخر ، باستثناء ما يقتضيه القانون أو حسب الضرورة لأداء التزاماته بموجب هذه الاتفاقية. يجب على كل طرف اتخاذ خطوات معقولة لحماية سرية المعلومات السرية للطرف الآخر ومنع استخدامها أو الكشف عنها غير المصرح به."
+    },
+    {
+        "index":"3",
+        "question":"Does the clause discuss choice of law governing the contract?",
+        "answer":"Yes",
+        "text":"This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without giving effect to any choice of law or conflict of law provisions. The parties hereby submit to the exclusive jurisdiction of the state and federal courts located in New York County, New York for any dispute arising out of or relating to this Agreement.",
+        "Question_translation":"هل يناقش البند اختيار القانون الذي يحكم العقد؟",
+        "answer_Translation":"أجل",
+        "contract_Translation":"تخضع هذه الاتفاقية وتفسر وفقًا لقوانين ولاية نيويورك ، دون إنفاذ أي اختيار للقانون أو أحكام تنازع القانون. يخضع الطرفان بموجب هذا للاختصاص الحصري لمحاكم الولاية والمحاكم الفيدرالية الموجودة في مقاطعة نيويورك ، نيويورك لأي نزاع ينشأ عن أو يتعلق بهذه الاتفاقية."
+    },
+    {
+        "index":"4",
+        "question":"Does the clause waive confidentiality?",
+        "answer":"No",
+        "text":"This Agreement shall be governed by and construed in accordance with the laws of the State of California",
+        "Question_translation":"هل يتنازل الشرط عن السرية؟",
+        "answer_Translation":"لا",
+        "contract_Translation":"تخضع هذه الاتفاقية وتفسر وفقًا لقوانين ولاية كاليفورنيا."
+    },
+    {
+        "index":"5",
+        "question":"Does the clause discuss personal indemnification?",
+        "answer":"No",
+        "text":"This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.",
+        "Question_translation":"هل يناقش البند التعويض الشخصي؟",
+        "answer_Translation":"لا",
+        "contract_Translation":"1- يكون هذا الاتفاق ملزماً للأطراف فيه ولمن يخلفهم ويحيلهم، ويصب في مصلحتهم."
+    },
+    {
+        "index":"6",
+        "question":"Does the clause waive confidentiality?",
+        "answer":"No",
+        "text":"This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns",
+        "Question_translation":"هل يتنازل الشرط عن السرية؟",
+        "answer_Translation":"لا",
+        "contract_Translation":"تكون هذه الاتفاقية ملزمة وملزمة لصالح الأطراف وخلفائهم والمتنازل لهم."
+    },
+    {
+        "index":"7",
+        "question":"Does the clause describe confidentiality requirements?",
+        "answer":"No",
+        "text":"This Agreement contains the entire understanding between the parties hereto with respect to the subject matter hereof and supersedes all prior agreements and understandings between them relating thereto.",
+        "Question_translation":"هل يصف البند متطلبات السرية؟",
+        "answer_Translation":"لا",
+        "contract_Translation":"يتضمن هذا الاتفاق التفاهم الكامل بين الطرفين فيما يتعلق بموضوعه ويحل محل جميع الاتفاقات والتفاهمات السابقة بينهما المتعلقة به."
+    }
+]

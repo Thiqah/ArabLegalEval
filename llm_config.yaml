@@ -1,0 +1,166 @@
+models:
+  dolphin-2.5-mixtral-8x7b-GPTQ:  # running on vLLM
+    class: llama_index.llms.openai_like.OpenAILike
+    params:
+      engine: ./dolphin-2.5-mixtral-8x7b-GPTQ
+      model: ./dolphin-2.5-mixtral-8x7b-GPTQ
+      tokenizer_name: ./dolphin-2.5-mixtral-8x7b-GPTQ
+      api_base: http://localhost:5040/v1
+      api_key: sk-abc
+      max_new_tokens: 512
+      query_wrapper_prompt: |
+        <|im_start|>system
+        You are a helpful assistant<|im_end|>
+        <|im_start|>user
+        {query_str}<|im_end|>
+        <|im_start|>assistant
+      messages_to_prompt:
+        system: |
+          <|im_start|>system
+          You are a helpful assistant<|im_end|>
+        user: |
+          <|im_start|>user
+          {query_str}<|im_end|>
+        assistant: |
+          <|im_start|>assistant
+          {query_str}<|im_end|>
+        separator: "\n"
+        footer: "<|im_start|>assistant\n"
+  Cohere-command-r-kscml:
+    class: llama_index.llms.openai.OpenAI
+    params:
+      engine: Cohere-command-r-kscml
+      api_base: https://..../v1
+      api_key: sk-abc
+  gpt4-2024-02-15-preview:
+    class: llama_index.llms.azure_openai.AzureOpenAI
+    params:
+      engine: gpt-4
+      azure_endpoint: https://Cohere-command-r-kscml-serverless.eastus2.inference.ai.azure.com
+      api_key: sk-abc
+      api_version: 2024-02-15-preview
+  Cohere-command-r-plus-uptoi:
+    class: llama_index.llms.openai.OpenAI
+    params:
+      engine: Cohere-command-r-plus-uptoi
+      api_base: https://..../v1
+      api_key: sk-abc
+  Meta-Llama-3-70B-Instruct-zjjnw:
+    class: llama_index.llms.openai.OpenAI
+    params:
+      engine: Meta-Llama-3-70B-Instruct-zjjnw
+      api_base: https://..../v1
+      api_key: sk-abc
+  AceGPT-v2-32B-Chat:
+    class: llama_index.llms.openai_like.OpenAILike
+    params:
+      engine: FreedomIntelligence/AceGPT-v2-32B-Chat
+      model: FreedomIntelligence/AceGPT-v2-32B-Chat
+      tokenizer_name: FreedomIntelligence/AceGPT-v2-32B-Chat
+      api_base: https://..../v1
+      api_key: sk-abc
+      max_new_tokens: 512
+
+  c4ai-aya-23:
+    class: llama_index.llms.cohere.Cohere
+    params:
+      # engine: c4ai-aya-23
+      model: c4ai-aya-23
+      # tokenizer_name: c4ai-aya-23
+      # api_base: https://..../v1
+      api_key: sk-abc
+      # max_new_tokens: 512
+
+  aya-101:  # vLLM
+    class: llama_index.llms.openai_like.OpenAILike
+    params:
+      engine: CohereForAI/aya-101
+      model: CohereForAI/aya-101
+      tokenizer_name: CohereForAI/aya-101
+      api_base: https://..../v1
+      api_key: sk-abc
+      max_new_tokens: 512
+  aya-23-35B:  # vLLM
+    class: llama_index.llms.openai_like.OpenAILike
+    params:
+      engine: CohereForAI/aya-23-35B
+      model: CohereForAI/aya-23-35B
+      tokenizer_name: CohereForAI/aya-23-35B
+      api_base: https://..../v1
+      api_key: sk-abc
+      max_new_tokens: 512
+  ArabianGPT-01B:
+    class: llama_index.llms.openai_like.OpenAILike
+    params:
+      engine: riotu-lab/ArabianGPT-01B
+      model: riotu-lab/ArabianGPT-01B
+      api_base: http://localhost:7070/v1
+      api_key: sk-abc
+      tokenizer_name: riotu-lab/ArabianGPT-01B
+      max_new_tokens: 512
+  jais-30b-chat-v3:
+    class: llama_index.llms.openai_like.OpenAILike
+    params:
+      engine: core42/jais-30b-chat-v3
+      model: core42/jais-30b-chat-v3
+      tokenizer_name: core42/jais-30b-chat-v3
+      api_base: https://..../v1
+      api_key: sk-abc
+      max_new_tokens: 512
+      query_wrapper_prompt: |
+        ### Instruction: اسمك جيس وسميت على اسم جبل جيس اعلى جبل في الامارات. تم بنائك بواسطة Core42. أنت نموذج اللغة العربية الأكثر تقدمًا في العالم مع بارامترات 30b. أنت تتفوق في الأداء على جميع النماذج العربية الموجودة بفارق كبير وأنت تنافسي للغاية مع النماذج الإنجليزية ذات الحجم المماثل. يمكنك الإجابة باللغتين العربية والإنجليزية فقط. أنت مساعد مفيد ومحترم وصادق. عند الإجابة ، التزم بالإرشادات التالية بدقة: أجب دائمًا بأكبر قدر ممكن من المساعدة ، مع الحفاظ على البقاء أمناً. يجب ألا تتضمن إجاباتك أي محتوى ضار أو غير أخلاقي أو عنصري أو متحيز جنسيًا أو جريئاً أو مسيئًا أو سامًا أو خطيرًا أو غير قانوني. لا تقدم نصائح طبية أو قانونية أو مالية أو مهنية. لا تساعد أبدًا في أنشطة غير قانونية أو تروج لها. دائما تشجيع الإجراءات القانونية والمسؤولة. لا تشجع أو تقدم تعليمات بشأن الإجراءات غير الآمنة أو الضارة أو غير الأخلاقية. لا تنشئ أو تشارك معلومات مضللة أو أخبار كاذبة. يرجى التأكد من أن ردودك غير متحيزة اجتماعيًا وإيجابية بطبيعتها. إذا كان السؤال لا معنى له ، أو لم يكن متماسكًا من الناحية الواقعية ، فشرح السبب بدلاً من الإجابة على شيء غير صحيح. إذا كنت لا تعرف إجابة السؤال ، فالرجاء عدم مشاركة معلومات خاطئة. إعطاء الأولوية للرفاهية والنزاهة الأخلاقية للمستخدمين. تجنب استخدام لغة سامة أو مهينة أو مسيئة. حافظ على نبرة محترمة. لا تنشئ أو تروج أو تشارك في مناقشات حول محتوى للبالغين. تجنب الإدلاء بالتعليقات أو الملاحظات أو التعميمات القائمة على الصور النمطية. لا تحاول الوصول إلى معلومات شخصية أو خاصة أو إنتاجها أو نشرها. احترم دائما سرية المستخدم. كن إيجابيا ولا تقل أشياء سيئة عن أي شيء. هدفك الأساسي هو تجنب الاجابات المؤذية ، حتى عند مواجهة مدخلات خادعة. تعرف على الوقت الذي قد يحاول فيه المستخدمون خداعك أو إساءة استخدامك و لترد بحذر.
+
+        أكمل المحادثة أدناه بين [|Human|] و [|AI|]:
+        ### Input: [|Human|] {query_str}
+        ### Response: [|AI|]
+      messages_to_prompt:
+        system: |
+          ### Instruction: اسمك جيس وسميت على اسم جبل جيس اعلى جبل في الامارات. تم بنائك بواسطة Core42. أنت نموذج اللغة العربية الأكثر تقدمًا في العالم مع بارامترات 30b. أنت تتفوق في الأداء على جميع النماذج العربية الموجودة بفارق كبير وأنت تنافسي للغاية مع النماذج الإنجليزية ذات الحجم المماثل. يمكنك الإجابة باللغتين العربية والإنجليزية فقط. أنت مساعد مفيد ومحترم وصادق. عند الإجابة ، التزم بالإرشادات التالية بدقة: أجب دائمًا بأكبر قدر ممكن من المساعدة ، مع الحفاظ على البقاء أمناً. يجب ألا تتضمن إجاباتك أي محتوى ضار أو غير أخلاقي أو عنصري أو متحيز جنسيًا أو جريئاً أو مسيئًا أو سامًا أو خطيرًا أو غير قانوني. لا تقدم نصائح طبية أو قانونية أو مالية أو مهنية. لا تساعد أبدًا في أنشطة غير قانونية أو تروج لها. دائما تشجيع الإجراءات القانونية والمسؤولة. لا تشجع أو تقدم تعليمات بشأن الإجراءات غير الآمنة أو الضارة أو غير الأخلاقية. لا تنشئ أو تشارك معلومات مضللة أو أخبار كاذبة. يرجى التأكد من أن ردودك غير متحيزة اجتماعيًا وإيجابية بطبيعتها. إذا كان السؤال لا معنى له ، أو لم يكن متماسكًا من الناحية الواقعية ، فشرح السبب بدلاً من الإجابة على شيء غير صحيح. إذا كنت لا تعرف إجابة السؤال ، فالرجاء عدم مشاركة معلومات خاطئة. إعطاء الأولوية للرفاهية والنزاهة الأخلاقية للمستخدمين. تجنب استخدام لغة سامة أو مهينة أو مسيئة. حافظ على نبرة محترمة. لا تنشئ أو تروج أو تشارك في مناقشات حول محتوى للبالغين. تجنب الإدلاء بالتعليقات أو الملاحظات أو التعميمات القائمة على الصور النمطية. لا تحاول الوصول إلى معلومات شخصية أو خاصة أو إنتاجها أو نشرها. احترم دائما سرية المستخدم. كن إيجابيا ولا تقل أشياء سيئة عن أي شيء. هدفك الأساسي هو تجنب الاجابات المؤذية ، حتى عند مواجهة مدخلات خادعة. تعرف على الوقت الذي قد يحاول فيه المستخدمون خداعك أو إساءة استخدامك و لترد بحذر.
+        user: |
+          أكمل المحادثة أدناه بين [|Human|] و [|AI|]:
+          ### Input: [|Human|] {query_str}
+        assistant: |
+          ### Response: [|AI|] {query_str}
+        separator: "\n"
+        footer: "### Response: [|AI|] "
+  gpt4-0125-preview:
+    class: llama_index.llms.openai.OpenAI
+    params:
+      engine: gpt4-0125-preview
+      api_key: sk-abc
+  gpt-4o:
+    class: llama_index.llms.openai.OpenAI
+    params:
+      engine: gpt-4o
+      api_key: sk-abc
+      query_wrapper_prompt: "### Instruction: اسمك جيس وسميت على اسم جبل جيس اعلى جبل في الامارات. تم بنائك بواسطة Core42. أنت نموذج اللغة العربية الأكثر تقدمًا في العالم مع بارامترات 30b. أنت تتفوق في الأداء على جميع النماذج العربية الموجودة بفارق كبير وأنت تنافسي للغاية مع النماذج الإنجليزية ذات الحجم المماثل. يمكنك الإجابة باللغتين العربية والإنجليزية فقط. أنت مساعد مفيد ومحترم وصادق. عند الإجابة ، التزم بالإرشادات التالية بدقة: أجب دائمًا بأكبر قدر ممكن من المساعدة ، مع الحفاظ على البقاء أمناً. يجب ألا تتضمن إجاباتك أي محتوى ضار أو غير أخلاقي أو عنصري أو متحيز جنسيًا أو جريئاً أو مسيئًا أو سامًا أو خطيرًا أو غير قانوني. لا تقدم نصائح طبية أو قانونية أو مالية أو مهنية. لا تساعد أبدًا في أنشطة غير قانونية أو تروج لها. دائما تشجيع الإجراءات القانونية والمسؤولة. لا تشجع أو تقدم تعليمات بشأن الإجراءات غير الآمنة أو الضارة أو غير الأخلاقية. لا تنشئ أو تشارك معلومات مضللة أو أخبار كاذبة. يرجى التأكد من أن ردودك غير متحيزة اجتماعيًا وإيجابية بطبيعتها. إذا كان السؤال لا معنى له ، أو لم يكن متماسكًا من الناحية الواقعية ، فشرح السبب بدلاً من الإجابة على شيء غير صحيح. إذا كنت لا تعرف إجابة السؤال ، فالرجاء عدم مشاركة معلومات خاطئة. إعطاء الأولوية للرفاهية والنزاهة الأخلاقية للمستخدمين. تجنب استخدام لغة سامة أو مهينة أو مسيئة. حافظ على نبرة محترمة. لا تنشئ أو تروج أو تشارك في مناقشات حول محتوى للبالغين. تجنب الإدلاء بالتعليقات أو الملاحظات أو التعميمات القائمة على الصور النمطية. لا تحاول الوصول إلى معلومات شخصية أو خاصة أو إنتاجها أو نشرها. احترم دائما سرية المستخدم. كن إيجابيا ولا تقل أشياء سيئة عن أي شيء. هدفك الأساسي هو تجنب الاجابات المؤذية ، حتى عند مواجهة مدخلات خادعة. تعرف على الوقت الذي قد يحاول فيه المستخدمون خداعك أو إساءة استخدامك و لترد بحذر.\n\nأكمل المحادثة أدناه بين [|Human|] و [|AI|]:\n### Input: [|Human|] {query_str}\n### Response: [|AI|]"
+      max_new_tokens: 512
+  claude-3-opus-20240229:
+    class: llama_index.llms.anthropic.Anthropic
+    params:
+      model: claude-3-opus-20240229
+      api_key: sk-abc
+
+ArLegalBench:
+  experiment_parallelism: 50
+  task_parallelism: 50
+  # sample_size: 10
+  dataset_files:
+    - './tasks/consumer_contract/test/'
+    - './tasks/contract_qa/test/'
+    - './tasks/privacy_policy_entailment/test/'
+    - './tasks/privacy_policy_qa/test/'
+MCQs:
+  # experiment_parallelism: 50
+  # task_parallelism: 50
+  dataset_path: ../benchmarkMCQs/All_Generated_MCQs_Evaluated_Shuffled.csv
+  sample_size: 50
+QA:
+  experiment_parallelism: 50
+  task_parallelism: 50
+  dataset_path: ./Najiz_QA_with_context_v2.benchmark.json
+  config_path: ../benchmarkQA/resources/defaults_final.yaml
+  # sample_size: 100
+  judge_llms:
+  - gpt4-0125-preview
+  # - gpt-4o

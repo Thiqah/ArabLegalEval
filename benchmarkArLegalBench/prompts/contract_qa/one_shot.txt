@@ -1,0 +1,14 @@
+Given a text from a contract and a related question, answer the question with أجل for Yes or لا for No. Don't add any more details to the answer.
+
+contract: في حالة وجود أي نزاع ينشأ عن أو يتعلق بهذه الاتفاقية ، يتفق الطرفان على الخضوع للوساطة قبل اللجوء إلى التحكيم أو التقاضي.
+Question: هل يناقش البند حل النزاعات؟"
+Answer: أجل
+
+"contract":"هل يناقش البند التعويض الشخصي؟"
+"Answer":"لا"
+"Question":"1- يكون هذا الاتفاق ملزماً للأطراف فيه ولمن يخلفهم ويحيلهم، ويصب في مصلحتهم."
+
+
+contract: {clause}
+Question: {question}
+Answer:

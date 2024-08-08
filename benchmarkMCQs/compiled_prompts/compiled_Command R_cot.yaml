@@ -1,0 +1,129 @@
+init:
+  lm: null
+  traces: []
+  train: []
+  demos:
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ان ﺣﻘوق اﻻﻧﺳﺎن ﺗﻌﺑر ﻋن ﺻوت اﻟﺿﻣﯾر اﻹﻧﺳﺎﻧﻲ ﻓﻲ اﻟﻣﯾدان اﻻﺟﺗﻣﺎﻋﻲ واﻟﺳﯾﺎﺳﻲ:
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال في العلوم السياسية للجامعات في مصر. اختر الإجابة
+      الصحيحة! سؤال: ان ﺣﻘوق اﻻﻧﺳﺎن ﺗﻌﺑر ﻋن ﺻوت اﻟﺿﻣﯾر اﻹﻧﺳﺎﻧﻲ ﻓﻲ اﻟﻣﯾدان اﻻﺟﺗﻣﺎﻋﻲ
+      واﻟﺳﯾﺎﺳﻲ:
+
+      Reasoning: Let''s think step by step in order to find the correct answer. Human
+      rights are considered a universal value that is above the will of the state
+      and its political systems, so it is not subject to the whims of the ruler or
+      the government. Therefore, the correct answer is that human rights are above
+      the will of the ruler, which is option A.'
+    option: A. ﺻﺢ
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: اﻣﺗد اﻟﻘﺎﻧون اﻟدوﻟﻲ ﻟﺣﻘوق اﻷﻧﺳﺎن ﻟﯾﺷﻣل ﺗوﻓﯾر اﻟﺣﻣﺎﯾﺔ ﻟﻣﺟﻣوﻋﺔأﻛﺑر ﻣن اﻷﻓراد
+      واﻟﻣﺟﻣوﻋﺎت
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال في العلوم السياسية للجامعات في مصر. اختر الإجابة
+      الصحيحة! سؤال: اﻣﺗد اﻟﻘﺎﻧون اﻟدوﻟﻲ ﻟﺣﻘوق اﻷﻧﺳﺎن ﻟﯾﺷﻣل ﺗوﻓﯾر اﻟﺣﻣﺎﯾﺔ ﻟﻣﺟﻣوﻋﺔأﻛﺑر
+      ﻣن اﻷﻓراد واﻟﻣﺟﻣوﻋﺎت A. ﺻﺢ B. ﺧطﺄ إجابة:
+
+      Reasoning: Let''s think step by step in order to find the correct answer. The
+      question is asking about the scope of international law in protecting human
+      rights, and whether it prioritizes the protection of individuals or groups.
+      International law prioritizes the protection of individuals, so the correct
+      answer is A. ﺻﺢ.'
+    option: A. ﺻﺢ
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ﯾﻣﻛن اﻟﻘول إن ﺣﻘوق اﻹﻧﺳﺎن ھﻲ ﺿﻣﺎﻧﺎت ﻗﺎﻧوﻧﯾﺔ ﻋﺎﻟﻣﯾﺔ ﺗﺣﻣﻲ اﻷﻓراد واﻟﻣﺟﻣوﻋﺎت
+      ﻣن اﻟﺣﻛوﻣﺎت
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال في العلوم السياسية للجامعات في مصر. اختر الإجابة
+      الصحيحة! سؤال: ﯾﻣﻛن اﻟﻘول إن ﺣﻘوق اﻹﻧﺳﺎن ھﻲ ﺿﻣﺎﻧﺎت ﻗﺎﻧوﻧﯾﺔ ﻋﺎﻟﻣﯾﺔ ﺗﺣﻣﻲ اﻷﻓراد
+      واﻟﻣﺟﻣوﻋﺎت ﻣن اﻟﺣﻛوﻣﺎت A. ﺻﺢ B. ﺧطﺄ إجابة:
+
+      Reasoning: Let''s think step by step in order to find the correct answer. The
+      question is asking about the nature of human rights, and whether they are universal
+      guarantees that protect individuals and groups from governments. The correct
+      answer is that human rights are universal guarantees, so the correct option
+      is A. ﺻﺢ.'
+    option: A. ﺻﺢ
+  - augmented: true
+    question: 'هذا سؤال  في العلوم السياسية للجامعات في مصر. اختر الإجابة الصحيحة!
+
+
+      سؤال: ﯾرى أﻧﺻﺎر اﻟﻣدرﺳﺔ اﻟﻧﻔﻌﯾﺔ اﻧﮫ ﯾﻣﻛن اﻟﺗﺿﺣﯾﺔ ﺑﺣﻘوق ﻓرد ﻣﻌﯾن أو اﻓراد ﻣﻌﯾﻧﯾن
+      ﻣن أﺟل ﺗﺣﻘﯾﻖ ﻣﻧﺎﻓﻊ
+
+      A. ﺻﺢ
+
+      B. ﺧطﺄ
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال في العلوم السياسية للجامعات في مصر. اختر الإجابة
+      الصحيحة! سؤال: ﯾرى أﻧﺻﺎر اﻟﻣدرﺳﺔ اﻟﻧﻔﻌﯾﺔ اﻧﮫ ﯾﻣﻛن اﻟﺗﺿﺣﯾﺔ ﺑﺣﻘوق ﻓرد ﻣﻌﯾن أو
+      اﻓراد ﻣﻌﯾﻧﯾن ﻣن أﺟل ﺗﺣﻘﯾﻖ ﻣﻧﺎﻓﻊ
+
+      Reasoning: Let''s think step by step in order to find the correct answer. We
+      need to identify the concept being described, which is the right to defend oneself
+      or others from harm. This concept is related to the idea of self-defense.'
+    option: A. ﺻﺢ (Ṣaḥḥ, meaning "correct" or "right", which in this context refers
+      to the right to self-defense)
+  - augmented: true
+    question: 'هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+
+
+      سؤال: يقيم الدعوى العمومية:
+
+      A. النيابة العامة
+
+      B. الموظفون المكلفون بذلك قانونا
+
+      C. الطرف المتضرر
+
+      D. جميع الأجوبة صحيحة
+
+
+      إجابة: '
+    rationale: 'Question: هذا سؤال قانوني للمحترفين في المغرب. اختر الإجابة الصحيحة!
+      سؤال: يقيم الدعوى العمومية: A. النيابة العامة B. الموظفون المكلفون بذلك قانونا
+      C. الطرف المتضرر D. جميع الأجوبة صحيحة إجابة:
+
+      Reasoning: Let''s think step by step in order to identify who can initiate a
+      public prosecution. In Morocco, the public prosecutor''s office is responsible
+      for initiating public prosecutions, so the correct answer is A. Additionally,
+      certain officials designated by law can also initiate public prosecutions, so
+      option B is also correct. The injured party, however, cannot initiate a public
+      prosecution, so option C is incorrect. Therefore, the correct answer is D, as
+      both A and B are correct.'
+    option: D. جميع الأجوبة صحيحة
+  signature_instructions: You are given an Arabic Multiple Choice Question, answer
+    it by choosing the correct option with the letter included.
+  signature_prefix: 'Option:'
+  extended_signature_instructions: You are given an Arabic Multiple Choice Question,
+    answer it by choosing the correct option with the letter included.
+  extended_signature_prefix: 'Option:'

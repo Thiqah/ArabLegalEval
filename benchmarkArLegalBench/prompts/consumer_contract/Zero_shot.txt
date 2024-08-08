@@ -1,0 +1,7 @@
+Given a text from a contract and a related question, answer the question in Arabic with only نعم for Yes or لا for No,, don't add any extra details to your asnwer.
+
+Contract: {clause}
+
+Question: {question}
+
+Answer:

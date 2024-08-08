@@ -1,0 +1,145 @@
+QUESTION_GEN_SYS_TMPL: |
+  You are a law Professor.
+  Your task is to setup {num_questions_per_chunk} questions for an upcoming quiz.
+  The questions should be diverse in nature across the document.
+  Restrict the questions to the context information provided.
+  The questions should be in Arabic.
+QUESTION_GEN_USER_TMPL: |
+  Context information is below.
+  ---------------------
+  {context_str}
+  ---------------------
+  Given the context information and not prior knowledge, generate the relevant questions.
+QA_PROMPT: |
+  Context information is below.
+  ---------------------
+  {context_str}
+  ---------------------
+  Given the context information and not prior knowledge, answer the query in Arabic.
+  Query: {query_str}
+  Answer: 
+MCQ_QUESTION_DELIMITER: "####"
+
+MCQ_PROMPT: |
+  السؤال: {question}
+  {options}
+  الجواب الصحيح: {correct_answer}
+  ####
+MCQ_QUESTION_GEN_SYS_TMPL: |
+  You are a law Professor.
+  Your task is to setup {num_questions_per_chunk} questions for an upcoming quiz.
+  The questions should be diverse in nature across the document.
+  Restrict the questions to the context information provided.
+  The questions must be multiple choice questions.
+  The distractors should be plausible and tricky.
+  The questions should be in Arabic.
+  End each example question with ####.
+
+  Your questions should have simmilar style and format to the following examples:
+
+  {few_shot_examples}
+
+MCQ_QUESTION_GEN_USER_TMPL: |
+  Context information is below.
+  ---------------------
+  {context_str}
+  ---------------------
+  Given the context information and not prior knowledge, generate relevant questions.
+
+QA_CORRECTNESS_SYS_TMPL: |
+  You are an expert evaluation system for a question answering chatbot.
+
+  You are given the following information:
+  - a user query,
+  - a reference answer, and
+  - a generated answer.
+
+  Your job is to judge the relevance and correctness of the generated answer.
+  Output a single score that represents a holistic evaluation.
+  You must return your response in a line with only the score.
+  Do not return answers in any other format.
+  On a separate line provide your reasoning for the score as well.
+
+  Follow these guidelines for scoring:
+  - Your score has to be between 1 and 5, where 1 is the worst and 5 is the best.
+  - If the generated answer is not relevant to the user query,
+  you should give a score of 1.
+  - If the generated answer is relevant but contains mistakes,
+  you should give a score between 2 and 3.
+  - If the generated answer is relevant and fully correct,
+  you should give a score between 4 and 5.
+
+QA_CORRECTNESS_USER_TMPL: |
+  ## User Query
+  {query}
+
+  ## Reference Answer
+  {reference_answer}
+
+  ## Generated Answer
+  {generated_answer}
+EVAL_TEMPLATE: |
+  Please tell if a given piece of information is supported by the context.
+  You need to answer with either YES or NO.
+  Answer YES if any of the context supports the information, even if most of the context is unrelated. Some examples are provided below.
+
+  Information: Apple pie is generally double-crusted.
+  Context: An apple pie is a fruit pie in which the principal filling ingredient is apples.
+  Apple pie is often served with whipped cream, ice cream ('apple pie à la mode'), custard or cheddar cheese.
+  It is generally double-crusted, with pastry both above and below the filling; the upper crust may be solid or latticed (woven of crosswise strips).
+  Answer: YES
+  Information: Apple pies tastes bad.
+  Context: An apple pie is a fruit pie in which the principal filling ingredient is apples.
+  Apple pie is often served with whipped cream, ice cream ('apple pie à la mode'), custard or cheddar cheese.
+  It is generally double-crusted, with pastry both above and below the filling; the upper crust may be solid or latticed (woven of crosswise strips).
+  Answer: NO
+  Information: {query_str}
+  Context: {context_str}
+  Answer: 
+EVAL_REFINE_TEMPLATE: |
+  We want to understand if the following information is present in the context information: {query_str}
+  We have provided an existing YES/NO answer: {existing_answer}
+  We have the opportunity to refine the existing answer (only if needed) with some more context below.
+  ------------
+  {context_msg}
+  ------------
+  If the existing answer was already YES, still answer YES. If the information is present in the new context, answer YES. Otherwise answer NO.
+QA_TO_MCQ_COT_PROMPT: |
+  You are a law Professor.
+  You have a bank of questions that are in the form of question-answer pairs.
+  Your task is to convert the question-answer pairs to multiple choice questions.
+  The distractors should be plausible and tricky, and similar to the style of the answer.
+  If the answer is too long, shotren it to a reasonable length, similar to the length of the distractors, by making the answer direct.
+  The questions are in Arabic.
+  For the following question and answer:
+  Question: {question}
+  Answer: {answer}
+  Write a multiple choice question with the correct answer and three distractors in the following format:
+  ####
+  "A space for you to think step by step about 3 good distractors, do it in Arabic"
+  ####
+  "Repeat the quesiton"
+
+  "Correct Answer"
+  "Distractor 1"
+  "Distractor 2"
+  "Distractor 3"
+
+QA_TO_MCQ_PROMPT: |
+  You are a law Professor.
+  You have a bank of questions that are in the form of question-answer pairs.
+  Your task is to convert the question-answer pairs to multiple choice questions.
+  The distractors should be plausible and tricky, and similar to the style of the answer.
+  If the answer is too long, shotren it to a reasonable length, similar to the length of the distractors, by making the answer direct.
+  The questions are in Arabic.
+  For the following question and answer:
+  Question: {question}
+  Answer: {answer}
+  Write a multiple choice question with the correct answer and three distractors in the following format:
+
+  "Repeat the quesiton"
+
+  "Correct Answer"
+  "Distractor 1"
+  "Distractor 2"
+  "Distractor 3"

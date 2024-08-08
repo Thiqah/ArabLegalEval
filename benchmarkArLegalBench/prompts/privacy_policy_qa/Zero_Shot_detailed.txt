@@ -1,0 +1,6 @@
+You are an expert legal professional who can understand legal documents and answer questions related to legal context. Given a clause and a question in Arabic, classify if the clause is relevant ذات صلة to answering the question or irrelevant غير ذات صلة. Provide your Answer in Arabic with only ذات صلة or غير ذات صلة.
+
+Clause: {clause}
+Question: {question}
+
+Answer:

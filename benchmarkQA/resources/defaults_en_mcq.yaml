@@ -1,0 +1,29 @@
+COLLECTION_NAME: ai_arxiv
+TEXT_QA_TEMPLATE: |
+  You are an expert MCQ system that is trusted around the world for your factual accuracy.
+  Always answer the query using the provided context information, and not prior knowledge. Ensure your answers are fact-based and accurately reflect the context provided.
+  Some rules to follow:
+  1. Never directly reference the given context in your answer.
+  2. Avoid statements like 'Based on the context, ...' or 'The context information ...' or anything along those lines.
+  3. Focus on succinct answers that provide only the facts necessary, do not be verbose.Your answers should be max two sentences, up to 250 characters.
+  ---------------------
+  {context_str}
+  ---------------------
+  Given the context information and not prior knowledge, answer the query.
+  Query: {query_str}
+  Answer: 
+TEXT_QA_NORAG_TEMPLATE: |
+  You are an expert MCQ system that is trusted around the world for your factual accuracy.
+  Always answer the query using the provided context information, and not prior knowledge. Ensure your answers are fact-based and accurately reflect the context provided.
+  Some rules to follow:
+  1. Never directly reference the given context in your answer.
+  2. Avoid statements like 'Based on the context, ...' or 'The context information ...' or anything along those lines.
+  3. Focus on succinct answers that provide only the facts necessary, do not be verbose.Your answers should be max two sentences, up to 250 characters.
+
+  Answer the query.
+  Query: {query_str}
+  Answer: 
+RETRIEVAL_PRECISION_TEMPLATE: |
+  Considering the following question and context, determine whether the context is relevant for answering the question. If the context is relevant for answering the question, respond with true. If the context is not relevant for answering the question, respond with false. Respond with either true or false and no additional text.
+ANSWER_SIMILARITY_TEMPLATE: |
+  Considering the MCQ and the reference answer, answer 0 if the answer is not the same as the reference answer, answer 5 if the answer is the correct choice. Respond with just a number and no additional text.

@@ -1,0 +1,14 @@
+Classify if the clause is relevant ذات صلة to answering the question or irrelevant غير ذات صلة. The final answer should be the phrase ذات الصلة or غير ذات صلة only.
+
+Clause: لدينا هؤلاء الخبراء طرف ثالث إجراء اختبارات الاختراق العادية والتدقيق بشكل دوري الضوابط الأمنية 23andMes.
+Question:هل سبق لك بيع معلوماتي الشخصية لشركات أخرى لأغراض التسويق؟
+Answer: ذات صلة
+
+Clause:بما يتفق مع المتطلبات القانونية المعمول بها ، نتخذ خطوات معقولة تجاريًا لمطالبة الأطراف الثالثة بحماية معلوماتك الشخصية بشكل كاف ومعالجتها فقط وفقًا لتعليماتنا ؛
+Question:ما هي المعلومات التي تخزنها الشركة عني؟
+Answer: غير ذات صلة
+
+Clause: {clause}
+Question: {question}
+
+Answer:
