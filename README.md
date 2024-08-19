@@ -12,11 +12,11 @@
 
 The ArLegalEval dataset is composed of 3 main parent tasks. Evaluation code for each of these tasks can be found in its directory as follows:
 - `[benchmarkQA/](benchmarkQA/)` contains the question-answering task
-      - benchmark questions are in `[./benchmarkQA/Najiz_QA_with_context_v2.benchmark.json]()`
+      - benchmark questions are in `./benchmarkQA/Najiz_QA_with_context_v2.benchmark.json`
 - `[benchmarkArLegalBench/](benchmarkArLegalBench/)` contains the translated subset of LegalBench
-      - `[./benchmarkArLegalBench/tasks/<task_name>/<split>/*.json]()`
+      - `./benchmarkArLegalBench/tasks/<task_name>/<split>/*.json`
 - `[benchmarkMCQs/](benchmarkMCQs/)` contains the multiple-choice questions task
-      - benchmark questions are in `[./benchmarkMCQs/All_Generated_MCQs_Evaluated_Shuffled.csv]()`
+      - benchmark questions are in `./benchmarkMCQs/All_Generated_MCQs_Evaluated_Shuffled.csv`
 
 ---
 
