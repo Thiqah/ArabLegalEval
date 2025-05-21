@@ -52,7 +52,7 @@ The ArLegalEval dataset is composed of 3 main parent tasks. Evaluation code for 
 
 ---
 
-- (not yet available) the raw data which is scraped from public sources is in `data/` which is handled using `DVC`, details can be found in [data/README.md](data/README.md)
+- the raw data which is scraped from public sources is in `data`
 
 Tested with Python 3.12
 
